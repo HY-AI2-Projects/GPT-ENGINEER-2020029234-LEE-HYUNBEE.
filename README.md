@@ -1,5 +1,5 @@
 # GPT-ENGINEER에 대하여
-GPT ENGINEER에 대한 설명 - 한양대학교 정보융합전공 2020029234 이현비
+" GPT ENGINEER에 대한 설명 - 한양대학교 정보융합전공 2020029234 이현비 "
 
 발표 과제였던 GPT-3 논문에 대한 리뷰에 이어서 관련성 있으며, 흥미로운 주제라고 생각한 GPT ENGINEER에 대해서 소개하고자 합니다.
 
@@ -99,6 +99,7 @@ generate 프롬프트 내용을 통해 '프롬프트가 코드 구조화와 아�
 https://platform.openai.com/account/api-keys
 
 상기 링크에서 API 키를 발급받은 후, API 키를 설정합니다.
+
 ![image](https://github.com/HY-AI2-Projects/GPT-ENGINEER-2020029234-LEE-HYUNBEE./assets/153083926/8e190906-00df-405a-88df-752aebbdf120)
 
 - 새 프로젝트 폴더를 만듭니다.
@@ -110,10 +111,32 @@ https://platform.openai.com/account/api-keys
 # 데모
 https://github.com/HY-AI2-Projects/GPT-ENGINEER-2020029234-LEE-HYUNBEE./assets/153083926/32bea3f4-9491-4efa-b6e9-46642afaebd3
 
+# GPT ENGINEER 장점
+파일을 생성하고 빌드 스크립트를 제공하며, 완전한 프로젝트를 생성해줍니다.
+
+또한, 사전 프롬프트나 AI를 호출하는 단계를 최적화할 수 있습니다.
+1. 자동화된 파일 생성 : 스크립트가 필요한 파일을 자동으로 생성하여 수동 작업을 줄여줍니다.
+2. 빌드 스크립트 제공 : 애플리케이션을 시작하는 스크립트를 제공합니다.
+3. 개인 맞춤 설정 가능 : steps.py 부분을 수정하여, 상황에 맞게 최적화할 수 있습니다.
+
+# GPT ENGINEER 단점
+복잡한 프로젝트일수록 코드가 변형되며, 파일 갯수도 달라지고 폴더 위치도 달라집니다.
+
+또한, GPT는 사실이 아닌 것을 사실처럼 이야기하는 경우가 있는데, 이러한 단점을 환각(hallucination) 현상이라고 합니다.
+아직은 전문가가 검증하는 과정이 필요합니다.
+
+# 결론
+GPT Engineer는 AI 기술이 개발 영역에 미치는 영향을 대표하는 프로젝트 중 하나라고 할 수 있습니다. 
+
+그래서 개발자는 더 빠르고, 더 효과적으로 원하는 코드를 작성하고, 동시에 자신의 코딩 스타일을 AI에게 학습시킬 수 있습니다.
+
+코드 생성에 에러가 발생할 때가 있으나, 베이스로 활용하기엔 충분하며 앞으로 더욱 개선될 것으로 예상됩니다.
 
 # GitHub 관련 주소
 https://github.com/AntonOsika/gpt-engineer
 
 # 출처
-https://kwangho.tistory.com/5871 
-https://insight.infograb.net/blog/2023/06/27/gpt-engineer/#%EA%B5%AC%EC%A1%B0
+- https://kwangho.tistory.com/5871
+- https://insight.infograb.net/blog/2023/06/27/gpt-engineer/#%EA%B5%AC%EC%A1%B0
+
+본 게시글은 학습 목적으로 제작되었으며, 영리적 목적이 없음을 밝힙니다.
